@@ -1,0 +1,27 @@
+{
+  "name": "PDX-Industrial",
+  "homepage": "https://github.com/dperrymorrow/PDX-Industrial",
+  "authors": [
+    "David Morrow <dperrymorrow@gmail.com>"
+  ],
+  "description": "website for PDX-Industrial",
+  "main": "Index.haml",
+  "moduleType": [
+    "amd"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "swipebox": "~1.4.1",
+    "jquery": "~2.1.4",
+    "bootstrap": "~3.3.6",
+    "animate.css": "~3.4.0"
+  }
+}
