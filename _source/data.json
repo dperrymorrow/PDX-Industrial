@@ -1,13 +1,11 @@
 {
-
-
   "projects": [
     {
       "img": "placeholder.png",
       "title": "Placeholder"
     },
     {
-      "img": "placeholder.png",
+      "img": "placeholder_2.png",
       "title": "Placeholder"
     },
     {
@@ -15,7 +13,7 @@
       "title": "Placeholder"
     },
     {
-      "img": "placeholder.png",
+      "img": "placeholder_2.png",
       "title": "Placeholder"
     },
     {
@@ -23,7 +21,7 @@
       "title": "Placeholder"
     },
     {
-      "img": "placeholder.png",
+      "img": "placeholder_2.png",
       "title": "Placeholder"
     },
     {
@@ -31,7 +29,7 @@
       "title": "Placeholder"
     },
     {
-      "img": "placeholder.png",
+      "img": "placeholder_2.png",
       "title": "Placeholder"
     },
     {
@@ -39,7 +37,7 @@
       "title": "Placeholder"
     },
     {
-      "img": "placeholder.png",
+      "img": "placeholder_2.png",
       "title": "Placeholder"
     },
     {
@@ -47,7 +45,7 @@
       "title": "Placeholder"
     },
     {
-      "img": "placeholder.png",
+      "img": "placeholder_2.png",
       "title": "Placeholder"
     }
   ]
