@@ -1,0 +1,27 @@
+{
+  "name": "pdx",
+  "version": "1.0.0",
+  "description": "site for pdx industrial",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "stylus": "stylus --include-css -w _source/stylus/*.styl -o _compiled/css/ -I node_modules",
+    "ejs": "node ./scripts/ejs.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dperrymorrow/PDX-Industrial.git"
+  },
+  "author": "David Morrow",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dperrymorrow/PDX-Industrial/issues"
+  },
+  "homepage": "https://github.com/dperrymorrow/PDX-Industrial#readme",
+  "dependencies": {
+    "ejs": "^2.5.5",
+    "flexboxgrid": "^6.3.1",
+    "normalize-css": "^2.3.1",
+    "stylus": "^0.54.5"
+  }
+}
