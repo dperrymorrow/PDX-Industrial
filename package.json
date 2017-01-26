@@ -5,8 +5,9 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "stylus": "stylus --include-css -w _source/stylus/*.styl -o _compiled/css/ -I node_modules",
-    "ejs": "node ./scripts/ejs.js"
+    "stylus": "node_modules/stylus/bin/stylus --include-css -w _source/stylus/*.styl -o _compiled/css/ -I node_modules",
+    "ejs": "node ./scripts/ejs.js",
+    "build": "npm run stylus && npm ejs"
   },
   "repository": {
     "type": "git",

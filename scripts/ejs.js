@@ -1,37 +1,28 @@
 
 'use strict';
 
+const ROOT = process.cwd();
+
 const ejs = require('ejs');
 const fs = require('fs');
-const locals = require('./../_source/data.json');
 const opts = {
   persistant: true,
   interval: 1000,
 };
 
-fs.watch('./../_source/ejs', opts, (ev, fileName) => {
-  console.log(`${fileName} changed`);
-  render();
-});
+fs.watch(`${ROOT}/_source/ejs`, opts, render);
+fs.watch(`${ROOT}/_source/data.json`, opts, render);
 
 function render() {
-  ejs.renderFile('./../_source/ejs/index.ejs', locals, {}, (err, str) => {
+  delete require.cache[`${ROOT}/_source/data.json`]
+  const locals = require(`${ROOT}/_source/data.json`);
+  ejs.renderFile(`${ROOT}/_source/ejs/index.ejs`, locals, {}, (err, str) => {
     if (err) throw err;
 
-    fs.writeFile('./../index.html', str, err => {
+    fs.writeFile(`${ROOT}/index.html`, str, err => {
       if (err) throw err;
     });
   });
 }
 
 render();
-//
-// const locals = require('./../_source/data.json');
-//
-// ejs.renderFile('./../_source/ejs/index.ejs', locals, {}, function(err, str){
-//   console.log(str)
-//       fs.writeFile('./../../index.html', str, err => {
-//         if (err) throw err;
-//       });
-//
-// });

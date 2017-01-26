@@ -1,13 +1,66 @@
 @require 'normalize-css/normalize.css'
 @require 'flexboxgrid/css/flexboxgrid.css'
 
+$padding = 20px
+$gray-dark = #333
+$gray-light= lighten($gray-dark, 80%)
 
-.grid-item
+html, body
   padding: 0
   margin: 0
+  background-color: $gray-dark
+
+.grid-container
+  width: 100%
+  box-sizing: border-box
+  margin: 0
+  border: 1px solid $gray-dark
+
+.grid-item
+  background-image: url("../img/loader.svg")
+  background-repeat: no-repeat
+  background-position: center center
+  margin: 0
+  padding: 0
+  background-color: $gray-dark
+  overflow: hidden
+  position: relative
+  // height: 1em
+  border: 1px solid $gray-dark
+  box-sizing: border-box
+
+  .details
+    position: absolute
+    top: 100%
+    left: 0
+    width: 100%
+    height: 100%
+    background-color: $gray-dark
+    opacity: 0
+    transition: all .3s ease-out
+    padding: $padding
+    color: $gray-light
+    box-sizing: border-box
+
+    h2
+      border-bottom: 1px solid $gray-light
+
+    p
+      font-size: 12px
+
+  &:hover
+    .details
+      opacity: .7
+      top: 0
 
   img
-    height: auto
-    width: 100%
     display: block
+    height: auto
+    opacity: 0
+    width: 100%
     // border: 1px solid #ccc
+    transition: all .4s ease-in
+    // transition-delay: .2s
+
+    &.loaded
+      opacity: 1
