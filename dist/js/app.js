@@ -5,6 +5,7 @@
     imgLoaded: function(index) {
       document.querySelector('#grid-item-' + index).classList.add('loaded');
     },
+
   }
 
 }());
