@@ -1305,6 +1305,11 @@ body {
   margin: 0;
   background-color: #fff;
 }
+footer {
+  display: block;
+  overflow: auto;
+  border-top: 30px solid #01adee;
+}
 footer img {
   width: 100%;
 }
@@ -1315,10 +1320,11 @@ header {
 header img.city {
   width: 100%;
   height: auto;
+  margin-top: -10px;
 }
 header img.logo {
-  margin-top: -10px;
-  max-width: 60%;
+  margin-top: -15px;
+  max-width: 50%;
   height: auto;
   margin-bottom: 10px;
 }
