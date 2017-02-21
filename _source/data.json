@@ -2,64 +2,464 @@
   "baseUrl": "https://dperrymorrow.github.io/PDX-Industrial/",
   "projects": [
     {
-      "img": "http://placebear.com/600/600",
-      "title": "Placeholder",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+      "img": "dist/img/projects/ACGapparel.jpg",
+      "title": "ACG Apparel",
+      "description": ""
     },
     {
-      "img": "http://placebear.com/950/950",
-      "title": "Placeholder",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+      "img": "dist/img/projects/AF1gallery.jpg",
+      "title": "Af1 Gallery",
+      "description": ""
     },
     {
-      "img": "http://placebear.com/600/600",
-      "title": "Placeholder",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+      "img": "dist/img/projects/AdiCuff.jpg",
+      "title": "Adi Cuff",
+      "description": ""
     },
     {
-      "img": "http://placebear.com/700/700",
-      "title": "Placeholder",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+      "img": "dist/img/projects/AdiHoops.jpg",
+      "title": "Adi Hoops",
+      "description": ""
     },
     {
-      "img": "http://placebear.com/500/500",
-      "title": "Placeholder",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+      "img": "dist/img/projects/AdiWearables.jpg",
+      "title": "Adi Wearables",
+      "description": ""
     },
     {
-      "img": "http://placebear.com/800/800",
-      "title": "Placeholder",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+      "img": "dist/img/projects/AntaHoops.jpg",
+      "title": "Anta Hoops",
+      "description": ""
     },
     {
-      "img": "http://placebear.com/500/500",
-      "title": "Placeholder",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+      "img": "dist/img/projects/BabyBit.jpg",
+      "title": "Baby Bit",
+      "description": ""
     },
     {
-      "img": "http://placebear.com/600/600",
-      "title": "Placeholder",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+      "img": "dist/img/projects/BikeFrames.jpg",
+      "title": "Bike Frames",
+      "description": ""
     },
     {
-      "img": "http://placebear.com/900/900",
-      "title": "Placeholder",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+      "img": "dist/img/projects/BladeCraft.jpg",
+      "title": "Blade Craft",
+      "description": ""
     },
     {
-      "img": "http://placebear.com/650/650",
-      "title": "Placeholder",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+      "img": "dist/img/projects/BootTechpack.jpg",
+      "title": "Boot Techpack",
+      "description": ""
     },
     {
-      "img": "http://placebear.com/650/650",
-      "title": "Placeholder",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+      "img": "dist/img/projects/BraStack.jpg",
+      "title": "Bra Stack",
+      "description": ""
     },
     {
-      "img": "http://placebear.com/680/680",
-      "title": "Placeholder",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+      "img": "dist/img/projects/CamPhones.jpg",
+      "title": "Cam Phones",
+      "description": ""
+    },
+    {
+      "img": "dist/img/projects/CarSketches.jpg",
+      "title": "Car Sketches",
+      "description": ""
+    },
+    {
+      "img": "dist/img/projects/CaribinerRadio.jpg",
+      "title": "Caribiner Radio",
+      "description": ""
+    },
+    {
+      "img": "dist/img/projects/ConverseBuckle.jpg",
+      "title": "Converse Buckle",
+      "description": ""
+    },
+    {
+      "img": "dist/img/projects/ConverseHeritage.jpg",
+      "title": "Converse Heritage",
+      "description": ""
+    },
+    {
+      "img": "dist/img/projects/CoolerBP.jpg",
+      "title": "Cooler Bp",
+      "description": ""
+    },
+    {
+      "img": "dist/img/projects/DCtrainers.jpg",
+      "title": "D Ctrainers",
+      "description": ""
+    },
+    {
+      "img": "dist/img/projects/DeckHanger.jpg",
+      "title": "Deck Hanger",
+      "description": ""
+    },
+    {
+      "img": "dist/img/projects/DeckLayout.jpg",
+      "title": "Deck Layout",
+      "description": ""
+    },
+    {
+      "img": "dist/img/projects/DressShow.jpg",
+      "title": "Dress Show",
+      "description": ""
+    },
+    {
+      "img": "dist/img/projects/F1laptop.jpg",
+      "title": "F 1 Laptop",
+      "description": ""
+    },
+    {
+      "img": "dist/img/projects/FanGear.jpg",
+      "title": "Fan Gear",
+      "description": ""
+    },
+    {
+      "img": "dist/img/projects/FashionPhones.jpg",
+      "title": "Fashion Phones",
+      "description": ""
+    },
+    {
+      "img": "dist/img/projects/FashionTech.jpg",
+      "title": "Fashion Tech",
+      "description": ""
+    },
+    {
+      "img": "dist/img/projects/FlexWatches.jpg",
+      "title": "Flex Watches",
+      "description": ""
+    },
+    {
+      "img": "dist/img/projects/GiroModels.jpg",
+      "title": "Giro Models",
+      "description": ""
+    },
+    {
+      "img": "dist/img/projects/GiroPack.jpg",
+      "title": "Giro Pack",
+      "description": ""
+    },
+    {
+      "img": "dist/img/projects/GiroProLight.jpg",
+      "title": "Giro Pro Light",
+      "description": ""
+    },
+    {
+      "img": "dist/img/projects/GiroStreet.jpg",
+      "title": "Giro Street",
+      "description": ""
+    },
+    {
+      "img": "dist/img/projects/GiroTechlace.jpg",
+      "title": "Giro Techlace",
+      "description": ""
+    },
+    {
+      "img": "dist/img/projects/HMworkbar.jpg",
+      "title": "H Mworkbar",
+      "description": ""
+    },
+    {
+      "img": "dist/img/projects/HeroykSneaker.jpg",
+      "title": "Heroyk Sneaker",
+      "description": ""
+    },
+    {
+      "img": "dist/img/projects/Illumination.jpg",
+      "title": "Illumination",
+      "description": ""
+    },
+    {
+      "img": "dist/img/projects/InteriorRendo.jpg",
+      "title": "Interior Rendo",
+      "description": ""
+    },
+    {
+      "img": "dist/img/projects/JackPurcell.jpg",
+      "title": "Jack Purcell",
+      "description": ""
+    },
+    {
+      "img": "dist/img/projects/JewleryTech.jpg",
+      "title": "Jewlery Tech",
+      "description": ""
+    },
+    {
+      "img": "dist/img/projects/JordanConcepts.jpg",
+      "title": "Jordan Concepts",
+      "description": ""
+    },
+    {
+      "img": "dist/img/projects/KeenTrailRunning.jpg",
+      "title": "Keen Trail Running",
+      "description": ""
+    },
+    {
+      "img": "dist/img/projects/KneeBrace.jpg",
+      "title": "Knee Brace",
+      "description": ""
+    },
+    {
+      "img": "dist/img/projects/KuruBoots.jpg",
+      "title": "Kuru Boots",
+      "description": ""
+    },
+    {
+      "img": "dist/img/projects/KuruBrown.jpg",
+      "title": "Kuru Brown",
+      "description": ""
+    },
+    {
+      "img": "dist/img/projects/KuruTrainer.jpg",
+      "title": "Kuru Trainer",
+      "description": ""
+    },
+    {
+      "img": "dist/img/projects/LamboBags.jpg",
+      "title": "Lambo Bags",
+      "description": ""
+    },
+    {
+      "img": "dist/img/projects/LaptopConcepts.jpg",
+      "title": "Laptop Concepts",
+      "description": ""
+    },
+    {
+      "img": "dist/img/projects/LeatherHelmet.jpg",
+      "title": "Leather Helmet",
+      "description": ""
+    },
+    {
+      "img": "dist/img/projects/MTBshoe.jpg",
+      "title": "Mt Bshoe",
+      "description": ""
+    },
+    {
+      "img": "dist/img/projects/MeridianLee.jpg",
+      "title": "Meridian Lee",
+      "description": ""
+    },
+    {
+      "img": "dist/img/projects/MioDetail.jpg",
+      "title": "Mio Detail",
+      "description": ""
+    },
+    {
+      "img": "dist/img/projects/MioWatches.jpg",
+      "title": "Mio Watches",
+      "description": ""
+    },
+    {
+      "img": "dist/img/projects/MirrorCam.jpg",
+      "title": "Mirror Cam",
+      "description": ""
+    },
+    {
+      "img": "dist/img/projects/MobileWork.jpg",
+      "title": "Mobile Work",
+      "description": ""
+    },
+    {
+      "img": "dist/img/projects/NBsmartgear.jpg",
+      "title": "N Bsmartgear",
+      "description": ""
+    },
+    {
+      "img": "dist/img/projects/NikeConsidered.jpg",
+      "title": "Nike Considered",
+      "description": ""
+    },
+    {
+      "img": "dist/img/projects/NikeInnovation.jpg",
+      "title": "Nike Innovation",
+      "description": ""
+    },
+    {
+      "img": "dist/img/projects/NikeSoccer.jpg",
+      "title": "Nike Soccer",
+      "description": ""
+    },
+    {
+      "img": "dist/img/projects/NikeWindbreaker.jpg",
+      "title": "Nike Windbreaker",
+      "description": ""
+    },
+    {
+      "img": "dist/img/projects/NixonWatches.jpg",
+      "title": "Nixon Watches",
+      "description": ""
+    },
+    {
+      "img": "dist/img/projects/OakleySandals.jpg",
+      "title": "Oakley Sandals",
+      "description": ""
+    },
+    {
+      "img": "dist/img/projects/OrigamiCarryon.jpg",
+      "title": "Origami Carryon",
+      "description": ""
+    },
+    {
+      "img": "dist/img/projects/OrigamiLuggage.jpg",
+      "title": "Origami Luggage",
+      "description": ""
+    },
+    {
+      "img": "dist/img/projects/PayBand.jpg",
+      "title": "Pay Band",
+      "description": ""
+    },
+    {
+      "img": "dist/img/projects/PortlandStapler.jpg",
+      "title": "Portland Stapler",
+      "description": ""
+    },
+    {
+      "img": "dist/img/projects/PureNight.jpg",
+      "title": "Pure Night",
+      "description": ""
+    },
+    {
+      "img": "dist/img/projects/RespectPuller.jpg",
+      "title": "Respect Puller",
+      "description": ""
+    },
+    {
+      "img": "dist/img/projects/RideOns.jpg",
+      "title": "Ride Ons",
+      "description": ""
+    },
+    {
+      "img": "dist/img/projects/RyuGymsack.jpg",
+      "title": "Ryu Gymsack",
+      "description": ""
+    },
+    {
+      "img": "dist/img/projects/SantaCruzCasuals.jpg",
+      "title": "Santa Cruz Casuals",
+      "description": ""
+    },
+    {
+      "img": "dist/img/projects/ServerFarm.jpg",
+      "title": "Server Farm",
+      "description": ""
+    },
+    {
+      "img": "dist/img/projects/ShearlingBoots.jpg",
+      "title": "Shearling Boots",
+      "description": ""
+    },
+    {
+      "img": "dist/img/projects/Slippers.jpg",
+      "title": "Slippers",
+      "description": ""
+    },
+    {
+      "img": "dist/img/projects/SnapBuds.jpg",
+      "title": "Snap Buds",
+      "description": ""
+    },
+    {
+      "img": "dist/img/projects/SnowGoggles.jpg",
+      "title": "Snow Goggles",
+      "description": ""
+    },
+    {
+      "img": "dist/img/projects/SoftBoxes.jpg",
+      "title": "Soft Boxes",
+      "description": ""
+    },
+    {
+      "img": "dist/img/projects/SpaceMachines.jpg",
+      "title": "Space Machines",
+      "description": ""
+    },
+    {
+      "img": "dist/img/projects/SpinRendo.jpg",
+      "title": "Spin Rendo",
+      "description": ""
+    },
+    {
+      "img": "dist/img/projects/TacoPack.jpg",
+      "title": "Taco Pack",
+      "description": ""
+    },
+    {
+      "img": "dist/img/projects/TaskSeating.jpg",
+      "title": "Task Seating",
+      "description": ""
+    },
+    {
+      "img": "dist/img/projects/TeamID.jpg",
+      "title": "Team Id",
+      "description": ""
+    },
+    {
+      "img": "dist/img/projects/Terrariums.jpg",
+      "title": "Terrariums",
+      "description": ""
+    },
+    {
+      "img": "dist/img/projects/TherapyBand.jpg",
+      "title": "Therapy Band",
+      "description": ""
+    },
+    {
+      "img": "dist/img/projects/ToyVehicles.jpg",
+      "title": "Toy Vehicles",
+      "description": ""
+    },
+    {
+      "img": "dist/img/projects/UAcarriers.jpg",
+      "title": "UA Carriers",
+      "description": ""
+    },
+    {
+      "img": "dist/img/projects/UAcleats.jpg",
+      "title": "UA Cleats",
+      "description": ""
+    },
+    {
+      "img": "dist/img/projects/UAmitts.jpg",
+      "title": "UA Mitts",
+      "description": ""
+    },
+    {
+      "img": "dist/img/projects/UArunning.jpg",
+      "title": "UA Running",
+      "description": ""
+    },
+    {
+      "img": "dist/img/projects/VIdeoPhones.jpg",
+      "title": "Video Phones",
+      "description": ""
+    },
+    {
+      "img": "dist/img/projects/VRtrainer.jpg",
+      "title": "VR Trainer",
+      "description": ""
+    },
+    {
+      "img": "dist/img/projects/VanInterior.jpg",
+      "title": "Van Interior",
+      "description": ""
+    },
+    {
+      "img": "dist/img/projects/VideoBoombox.jpg",
+      "title": "Video Boombox",
+      "description": ""
+    },
+    {
+      "img": "dist/img/projects/WaterShoe.jpg",
+      "title": "Water Shoe",
+      "description": ""
+    },
+    {
+      "img": "dist/img/projects/Weebles.jpg",
+      "title": "Weebles",
+      "description": ""
     }
   ]
 }
