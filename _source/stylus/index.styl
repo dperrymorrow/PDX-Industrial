@@ -39,7 +39,6 @@ header
 
 .grid-container
   width: 100%
-  margin: $padding
   box-sizing: border-box
   margin: 0
   border: $border-width solid $border-color
@@ -85,11 +84,19 @@ header
   img
     display: block
     height: auto
-    opacity: 0
+    // opacity: 0
     width: 100%
     // border: 1px solid #ccc
     transition: all .4s ease-in
     // transition-delay: .2s
 
-    &.loaded
-      opacity: 1
+    // &.loaded
+    //   opacity: 1
+
+  img:not([src])
+    visibility: hidden
+
+  /* Fixes Firefox anomaly during image load */
+  @-moz-document url-prefix()
+    img:-moz-loading
+      visibility: hidden

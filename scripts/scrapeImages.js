@@ -1,8 +1,9 @@
 "use strict";
 
+const ROOT = process.cwd();
 const _ = require('lodash');
 const fs = require('fs');
-const dirname = './../dist/img/projects/';
+const dirname = ROOT + '/dist/img/projects/';
 const projects = [];
 
 fs.readdir(dirname, (err, files) => {
@@ -12,8 +13,8 @@ fs.readdir(dirname, (err, files) => {
   files.forEach(file => {
     projects.push({
       img: `dist/img/projects/${file}`,
-      title: _humanize(file.replace('.jpg', '')),
-      description: ""
+      // title: _humanize(file.replace('.jpg', '')),
+      // description: ""
     });
   });
 

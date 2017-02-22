@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>PDX Industrial</title>
     <link rel="stylesheet" href="dist/css/index.css">
-    <script src="dist/js/app.js"></script>
+
   </head>
   <body>
 
@@ -17,22 +17,26 @@
     <div class="row grid-container" id="app">
       <% projects.forEach((project, index) => { %>
         <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 grid-item">
-          <img onload="app.imgLoaded(<%= index %>);" id="grid-item-<%= index %>" src="<%= project.img %>" />
+          <img id="grid-item-<%= index %>" data-original="<%= project.img %>" width="500" height="500">
+          <!--
           <div class="details">
             <h2><%= project.title %></h2>
             <p>
               <%= project.description %>
             </p>
           </div>
+          -->
         </div>
       <% }); %>
     </div>
 
     <footer>
-
       <img src="dist/img/footer.png" />
-
     </footer>
 
+    <script src="dist/js/app.min.js"></script>
+    <script>
+      new LazyLoad();
+    </script>
   </body>
 </html>
