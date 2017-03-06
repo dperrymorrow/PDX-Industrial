@@ -23,6 +23,14 @@ function render() {
       if (err) throw err;
     });
   });
+
+  ejs.renderFile(`${ROOT}/_source/ejs/about.ejs`, locals, {}, (err, str) => {
+    if (err) throw err;
+
+    fs.writeFile(`${ROOT}/about.html`, str, err => {
+      if (err) throw err;
+    });
+  });
 }
 
 render();

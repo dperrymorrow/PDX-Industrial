@@ -1303,18 +1303,39 @@ html,
 body {
   padding: 0;
   margin: 0;
-  background-color: #fff;
+  background-color: #a5a7a8;
 }
 footer {
   display: block;
   overflow: auto;
-  border-top: 30px solid #01adee;
 }
 footer img {
   width: 100%;
 }
+footer nav {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: #000;
+  text-align: center;
+}
+footer nav ul {
+  list-style: none;
+}
+footer nav ul li {
+  display: inline-block;
+  border-right: 1px solid #fff;
+}
+footer nav ul li:last-child {
+  border: 0;
+}
+footer nav ul a {
+  padding: 0 20px;
+  color: #fff;
+  text-decoration: none;
+}
 header {
-  background-color: #01adee;
+  background-color: #a5a7a8;
   text-align: center;
 }
 header img.city {
@@ -1332,7 +1353,7 @@ header img.logo {
   width: 100%;
   box-sizing: border-box;
   margin: 0;
-  border: 5px solid #fff;
+  border: 5px solid #a5a7a8;
 }
 .grid-item {
   background-image: url("../img/loader.svg");
@@ -1340,10 +1361,10 @@ header img.logo {
   background-position: center center;
   margin: 0;
   padding: 0;
-  background-color: #fff;
+  background-color: #a5a7a8;
   overflow: hidden;
   position: relative;
-  border: 5px solid #fff;
+  border: 5px solid #a5a7a8;
   box-sizing: border-box;
 /* Fixes Firefox anomaly during image load */
 }
@@ -1383,5 +1404,10 @@ header img.logo {
 @-moz-document url-prefix() {
   .grid-item img:-moz-loading {
     visibility: hidden;
+  }
+}
+@media (max-width: 767px) {
+  header img.logo {
+    max-width: 80%;
   }
 }
