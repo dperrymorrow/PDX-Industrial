@@ -16,7 +16,7 @@
 
     <div class="row grid-container" id="app">
       <% projects.forEach((project, index) => { %>
-        <div class="col-xs-6 col-sm-4 col-md-3 col-lg-2 grid-item">
+        <div class="col-xs-6 col-sm-4 col-md-3 col-lg-3 grid-item">
           <img id="grid-item-<%= index %>" data-original="<%= project.img %>" width="500" height="500">
           <!--
           <div class="details">
@@ -38,9 +38,12 @@
               <a href="<%= link.url %>"><%= link.label %></a>
             </li>
           <% }); %>
+          <li>
+            <img class="logo" src="dist/img/word_logo.svg" />
+          </li>
         </ul>
       </nav>
-      <img src="dist/img/footer.gif" />
+      <img class="city" src="dist/img/footer.gif" />
     </footer>
 
     <script src="dist/js/app.min.js"></script>

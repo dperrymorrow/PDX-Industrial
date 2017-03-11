@@ -3,10 +3,10 @@
 
 $padding = 20px
 $gray-dark = #333
-$gray-bg = #a5a7a8;
+$gray-bg = #8c8c8c
 $gray-light= lighten($gray-dark, 80%)
 $blue = #01adee
-$border-width = 5px
+$border-width = 7px
 $padding = 20px
 $border-color = white
 
@@ -20,7 +20,7 @@ footer
   overflow: auto
   // margin-top: 30px
 
-  img
+  img.city
     width: 100%
 
   nav
@@ -29,15 +29,25 @@ footer
     width: 100%
     background-color: black
     text-align: center
+
+
+
     ul
+      display: flex
       list-style: none
+      align-items: center
+      justify-content: center
 
       li
-        display: inline-block
+        display: flex-inline
         border-right: 1px solid white
 
         &:last-child
           border: 0
+
+      img.logo
+        height: 16px
+        padding: 0 20px
 
       a
         padding: 0 20px
@@ -54,7 +64,7 @@ header
     margin-top: -10px
 
   img.logo
-    margin-top: -15px
+    // margin-top: -15px
     max-width: 50%
     height: auto
     margin-bottom: 10px
@@ -77,6 +87,10 @@ header
   // height: 1em
   border: $border-width solid $gray-bg
   box-sizing: border-box
+
+  img
+    box-sizing: border-box
+    border: 1px solid black
 
   .details
     position: absolute

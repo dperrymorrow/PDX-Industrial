@@ -1303,13 +1303,13 @@ html,
 body {
   padding: 0;
   margin: 0;
-  background-color: #a5a7a8;
+  background-color: #8c8c8c;
 }
 footer {
   display: block;
   overflow: auto;
 }
-footer img {
+footer img.city {
   width: 100%;
 }
 footer nav {
@@ -1320,14 +1320,21 @@ footer nav {
   text-align: center;
 }
 footer nav ul {
+  display: flex;
   list-style: none;
+  align-items: center;
+  justify-content: center;
 }
 footer nav ul li {
-  display: inline-block;
+  display: flex-inline;
   border-right: 1px solid #fff;
 }
 footer nav ul li:last-child {
   border: 0;
+}
+footer nav ul img.logo {
+  height: 16px;
+  padding: 0 20px;
 }
 footer nav ul a {
   padding: 0 20px;
@@ -1335,7 +1342,7 @@ footer nav ul a {
   text-decoration: none;
 }
 header {
-  background-color: #a5a7a8;
+  background-color: #8c8c8c;
   text-align: center;
 }
 header img.city {
@@ -1344,7 +1351,6 @@ header img.city {
   margin-top: -10px;
 }
 header img.logo {
-  margin-top: -15px;
   max-width: 50%;
   height: auto;
   margin-bottom: 10px;
@@ -1353,7 +1359,7 @@ header img.logo {
   width: 100%;
   box-sizing: border-box;
   margin: 0;
-  border: 5px solid #a5a7a8;
+  border: 7px solid #8c8c8c;
 }
 .grid-item {
   background-image: url("../img/loader.svg");
@@ -1361,12 +1367,16 @@ header img.logo {
   background-position: center center;
   margin: 0;
   padding: 0;
-  background-color: #a5a7a8;
+  background-color: #8c8c8c;
   overflow: hidden;
   position: relative;
-  border: 5px solid #a5a7a8;
+  border: 7px solid #8c8c8c;
   box-sizing: border-box;
 /* Fixes Firefox anomaly during image load */
+}
+.grid-item img {
+  box-sizing: border-box;
+  border: 1px solid #000;
 }
 .grid-item .details {
   position: absolute;
