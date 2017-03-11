@@ -1299,11 +1299,34 @@ table {
     order: 1;
   }
 }
+@import 'https://fonts.googleapis.com/css?family=Roboto:400,700';
 html,
 body {
   padding: 0;
   margin: 0;
   background-color: #8c8c8c;
+  font-family: 'Roboto', sans-serif;
+}
+.about-container {
+  padding: 20px 80px;
+}
+.about-container img.client-logos {
+  max-height: 400px;
+  margin-bottom: 40px;
+}
+.about-container img.experience {
+  margin-bottom: 40px;
+}
+.about-container p,
+.about-container li {
+  font-size: 1.8em;
+}
+.about-container p {
+  margin-top: 0;
+  margin-bottom: 40px;
+}
+.about-container strong {
+  font-weight: 700;
 }
 footer {
   display: block;
@@ -1419,5 +1442,12 @@ header img.logo {
 @media (max-width: 767px) {
   header img.logo {
     max-width: 80%;
+  }
+  .about-container {
+    padding: 20px;
+  }
+  .about-container p,
+  .about-container li {
+    font-size: 1.5em;
   }
 }
