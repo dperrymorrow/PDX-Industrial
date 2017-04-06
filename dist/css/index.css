@@ -1347,6 +1347,8 @@ footer nav ul {
   list-style: none;
   align-items: center;
   justify-content: center;
+  margin: 0;
+  padding: 10px 0;
 }
 footer nav ul li {
   display: flex-inline;
@@ -1440,6 +1442,12 @@ header img.logo {
   }
 }
 @media (max-width: 767px) {
+  footer nav li {
+    font-size: 12px;
+  }
+  footer nav li a {
+    padding: 0 7px;
+  }
   header img.logo {
     max-width: 80%;
   }
