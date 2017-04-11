@@ -1352,7 +1352,6 @@ footer nav ul {
 }
 footer nav ul li {
   display: flex-inline;
-  border-right: 1px solid #fff;
 }
 footer nav ul li:last-child {
   border: 0;
