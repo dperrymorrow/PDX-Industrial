@@ -40,10 +40,29 @@ html, body
 footer
   display: block
   overflow: auto
+  width: 100%
   // margin-top: 30px
 
   img.city
     width: 100%
+
+  .col-xs-6
+    // border:1px solid blue
+
+    &:first-child
+      text-align: right
+      position: relative
+
+    &:last-child
+      border-left: 1px solid white
+      text-align: left
+
+  a
+    padding: 0 20px
+    color: white
+    text-decoration: none
+    // border: 1px solid red
+    display: inline-block
 
   nav
     position: fixed
@@ -51,30 +70,31 @@ footer
     width: 100%
     background-color: black
     text-align: center
+    padding: 1em 0
 
-    ul
-      display: flex
-      list-style: none
-      align-items: center
-      justify-content: center
-      margin: 0
-      padding: 10px 0
+    // ul
+    //   display: flex
+    //   list-style: none
+    //   align-items: center
+    //   justify-content: center
+    //   margin: 0
+    //   padding: 10px 0
 
-      li
-        display: flex-inline
-        // border-right: 1px solid white
+    //   li
+    //     display: flex-inline
+    //     // border-right: 1px solid white
 
-        &:last-child
-          border: 0
+    //     &:last-child
+    //       border: 0
 
-      img.logo
-        height: 16px
-        padding: 0 20px
+    //   img.logo
+    //     height: 16px
+    //     padding: 0 20px
 
-      a
-        padding: 0 20px
-        color: white
-        text-decoration: none
+    //   a
+    //     padding: 0 20px
+    //     color: white
+    //     text-decoration: none
 
 header
   background-color: $gray-bg
@@ -161,11 +181,15 @@ header
 
 
 @media (max-width: 767px)
-  footer nav li
+  footer nav
     font-size: 12px
 
+    .col-xs-6
+      a
+       text-align: center
+
     a
-      padding: 0 7px
+      padding: 0
 
   header img.logo
     max-width: 80%
