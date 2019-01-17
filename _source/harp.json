@@ -1,0 +1,11 @@
+{
+  "globals": {
+    "baseUrl": "https://dperrymorrow.github.io/PDX-Industrial/",
+    "nav": [
+      {
+        "label": "Projects",
+        "url": "index.html"
+      }
+    ]
+  }
+}

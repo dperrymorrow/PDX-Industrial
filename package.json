@@ -4,12 +4,8 @@
   "description": "site for pdx industrial",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "stylus": "node_modules/stylus/bin/stylus --include-css -w _source/stylus/*.styl -o dist/css/ -I node_modules",
-    "ejs": "node ./scripts/ejs.js",
-    "concat": "node ./scripts/concat.js",
-    "scrape": "node ./scripts/scrapeImages.js",
-    "build": "npm run stylus && npm ejs"
+    "serve": "harp server _source",
+    "build": "harp compile _source docs"
   },
   "repository": {
     "type": "git",
@@ -21,12 +17,7 @@
     "url": "https://github.com/dperrymorrow/PDX-Industrial/issues"
   },
   "homepage": "https://github.com/dperrymorrow/PDX-Industrial#readme",
-  "dependencies": {
-    "ejs": "^2.5.5",
-    "flexboxgrid": "^6.3.1",
-    "lodash": "^4.17.4",
-    "normalize-css": "^2.3.1",
-    "stylus": "^0.54.5",
-    "vanilla-lazyload": "^4.0.4"
+  "devDependencies": {
+    "harp": "^0.29.0"
   }
 }
